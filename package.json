@@ -1,0 +1,22 @@
+{
+  "name": "places",
+  "version": "0.0.1",
+  "description": "places I've been",
+  "main": "index.js",
+  "scripts": {
+    "geojson": "togeojson openpaths_gridinoc.kml > openpaths_gridinoc.geojson"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Laurian/places.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Laurian/places/issues"
+  },
+  "homepage": "https://github.com/Laurian/places#readme",
+  "devDependencies": {
+    "@mapbox/togeojson": "^0.16.0"
+  }
+}
