@@ -18,5 +18,9 @@
   "homepage": "https://github.com/Laurian/places#readme",
   "devDependencies": {
     "@mapbox/togeojson": "^0.16.0"
+  },
+  "dependencies": {
+    "jsonfile": "^6.1.0",
+    "papaparse": "^5.3.2"
   }
 }
